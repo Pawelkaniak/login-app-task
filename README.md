@@ -1,33 +1,39 @@
-# Hello Candidate!
+# Hello Candidate
 
-### This is a recruitment task that tests your coding skills in React.
+This recruitment task is designed to evaluate your coding skills in React.
 
-Please <b>fork</b> or <b>download</b> repository and put it on your <b>github</b> or similar tool. </br>
-When you download the repository use <b>npm install</b> in main folder. </br>
-To run mocked server and React code, use <b>npm run start</b>.
+## Getting Started
 
-[http://localhost:3000](http://localhost:3000)
-</br>
+1. Fork or download the repository and upload it to your GitHub account or another similar platform.
+2. After downloading, run `npm install` in the main folder to install the necessary dependencies.
+3. To start the mocked server along with the React application, execute `npm run start`.
 
-Test data user for loginApi: </br>
+Access the application here: http://localhost:3000
+
+### Test Credentials for loginApi
+
 email: <i>candidate@test.com</i> </br>
 userName: <i>tester</i> </br>
 password: <i>test1234</i>
 
-## TODO:
+## Task Overview
 
-- Fetch data from login endpoint <b>http://localhost:8080/login</b>. Test account credentials are above.
-- Divide the steps of the form into two parts. The form on the first subpage(first step) should contain the field "email" and "next" button. </br> On the second subpage(second step), the fields "login", "password" and "submit" button. After completing all the data and approving the form, the user should receive a message about successful login.
-- Save "token" from successful "login" request in sessionStorage.
-- Display backend messages validation in red color below form.
-- Add frontend validation. If a field is omitted, receive a message about missing data. You can use external tools if you want.
-- In Navbar display full name of the logged user. Keep user logged with <b>http://localhost:8080/authUser</b> endpoint. To recive full name of the user you need send token in authorization header.
+### Primary Objectives:
 
-## ADDITIONAL TODO:
+- **Data Fetching:** Retrieve data from the login endpoint at `http://localhost:8080/login` using the test account credentials listed above.
+- **Form Division:** Organize the form into two segments:
+  - **First Page (First Step):** Should include the "email" field and a "next" button.
+  - **Second Page (Second Step):** Should contain "username", "password" fields, and a "submit" button. After form submission, the user should be notified of a successful login.
+- **Session Management:** Save the "token" obtained from a successful login response in `sessionStorage`.
+- **Validation Feedback:** Display backend validation messages in red beneath the form fields.
+- **Front-end Validation:** Implement front-end validation to notify users of any missed fields. You are encouraged to use external libraries or tools.
+- **User Information Display:** Show the full name of the logged-in user in the Navbar. Ensure user session persistence using the `http://localhost:8080/authUser` endpoint. A token sent in the authorization header is required to fetch the full name of the user.
 
-- Improve the look of the application in css. You have full freedom to do so.
-- Use additional styling libraries/tools
+### Additional Objectives:
 
-## GOOD LUCK! :)
+- **UI Enhancement:** Improve the visual appearance of the application with CSS. You are given complete creative freedom.
+- **Styling Tools:** Feel free to use additional styling libraries/tools to enhance aesthetics.
 
-- If you have any additional questions feel free to ask: <i>pawkaniak@gmail.com</i>
+## Good Luck! :)
+
+If you have any questions, please don't hesitate to reach out at: pawkaniak@gmail.com
